@@ -1,0 +1,17 @@
+.advantage {
+    max-height: 473px;
+    padding: 70px 0 67px 0;
+    background: #F6F6F6;
+    &__header {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        color: #0D0D0D;
+    }
+    &__section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
