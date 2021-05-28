@@ -1,0 +1,32 @@
+.review {
+    padding-bottom: 48px;
+    &__block {
+        margin-top: 60px;
+        display: flex;
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+    }
+    &__content {
+        width: 680px;
+        min-height: 213px;
+        margin-left: 60px;
+    }
+    &__header {
+        font-weight: bold;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__subheader {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__text {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        color: #0D0D0D;
+    }
+}
