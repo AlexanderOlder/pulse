@@ -25,7 +25,7 @@
         }
     }
 }
-@media (max-width: 575px) {
+@media (max-width: 600px) {
     .header {
         flex-direction: column;
         &__logo {
@@ -72,5 +72,10 @@
                 margin: 0;
             }
         }
-    } 
+    }
+    .catalog {
+        &__content_active {
+            justify-content: center;
+        }
+    }
 }
